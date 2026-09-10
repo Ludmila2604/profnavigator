@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <style>.question-hint{color:#65708a;font-size:14px;margin:0 0 24px}.interaction-status{min-height:22px;color:#65708a;font-size:13px;font-weight:600;margin:16px 0 0}</style>
 </head>
 <body>
   <header class="header container">
@@ -49,6 +50,7 @@
       <div class="test-top"><a class="logo" href="#top"><span>✦</span>ПрофНавигатор</a><div class="progress-label" id="progress-label"></div></div>
       <div class="progress-track"><div class="progress-value" id="progress-value"></div></div>
       <section class="question-box" id="question-box"></section>
+      <p class="interaction-status" id="test-status" role="status" aria-live="polite"></p>
       <div class="test-actions"><button class="button button-secondary" id="previous">← Назад</button><button class="button button-main" id="next" disabled>Далее →</button></div>
     </div>
   </section>
